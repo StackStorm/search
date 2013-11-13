@@ -1,0 +1,18 @@
+# General requirements
+argparse
+configparser
+eventlet
+# RabbitMQ/AMQP communication
+kombu
+librabbitmq
+# For solr connections
+pysolr
+lxml
+httplib2
+# For nova db connections
+sqlalchemy
+mysql-python
+# For testing
+# TODO(DZ): move to test-requirements
+nose
+mock

@@ -1,0 +1,37 @@
+[
+   {
+      "name" :  "My Cool VM",
+      "id":  "550e8400-e29b-41d4-a716-446655440000",
+      "state": "running",
+      "image": "CentOS.test",
+      "flavor": "m1.tiny",
+      "vcpus": 1,
+      "memory": 512,
+      "storage": 0,
+      "notes":" Only required fields"
+   },
+   {
+      "name" :  "vm dev 01",
+      "id":  "550e8400-e29b-41d4-a716-446655440001",
+      "ip": ["10.20.30.41"],
+      "power": "off",
+      "state": "shutdown",
+      "flavor": "m1.medium",
+      "vcpus": 2,
+      "memory": 1024,
+      "storage": 10,
+      "user":  "Dmitri",
+      "project": "Tenant 1",
+      "host":  "dc1-host1",
+      "health": 100,
+      "guest_os": "Ubuntu Server 9.10",
+      "image": "CentOS.LAMP",
+      "storage_total": 10,
+      "cpu_use_ave": 44,
+      "memory_used": 2048,
+      "memory_free": 1922,
+      "ssh_key":"My key",
+      "tags": ["folder", "Monster", "LAMP"],
+      "note":" Preserving the document relationship allows documents to be updated independently without having to reindex large numbers of denormalized documents."
+   }
+]
